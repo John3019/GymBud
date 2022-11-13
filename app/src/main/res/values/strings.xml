@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Testy</string>
+    <string name="welcome_where_are_you_completing_your_workout_today">Welcome: Where are you completing your workout today?</string>
+    <string name="at_home">At Home</string>
+    <string name="at_gym">At Gym</string>
+    <string name="workout">Workout</string>
+    <string name="lets_fucking_goooooo">Lets fucking GOOOOOO</string>
+    <string name="finish">Finish</string>
+    <string name="next_workout">Next Workout</string>
+    <string name="get_ready_to_move">Get ready to move!!!</string>
+    <string name="welcome_to_gymbud">Welcome to GymBud</string>
+    <string name="start_workout">Start Workout</string>
+</resources>
