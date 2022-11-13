@@ -2,8 +2,57 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Location"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9575CD"
     tools:context=".Location">
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="104dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/where_will_you_be_working_out"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EEEEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Gym"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FF6202ED"
+        android:contentDescription="@string/app_name"
+        android:text="@string/at_the_gym"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EEEEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck" />
+
+    <Button
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="100dp"
+        android:backgroundTint="#FF6202ED"
+        android:contentDescription="@string/app_name"
+        android:text="@string/at_Home"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EEEEEE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

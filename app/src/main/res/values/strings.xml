@@ -10,4 +10,10 @@
     <string name="get_ready_to_move">Get ready to move!!!</string>
     <string name="welcome_to_gymbud">Welcome to GymBud</string>
     <string name="start_workout">Start Workout</string>
+    <string name="where_are_you_working_out">WHere are you working out?</string>
+    <string name="whereare_you_working_out">Where are you working out</string>
+    <string name="where_will_you_be_working_out">Where will you be working out?</string>
+    <string name="at_the_gym">At the Gym</string>
+    <string name="at_Home">At Home</string>
+    <string name="quit">Quit</string>
 </resources>

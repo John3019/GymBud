@@ -13,22 +13,24 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Workout extends AppCompatActivity {
+public class Gym extends AppCompatActivity {
 
     ArrayList<String> Workouts = new ArrayList<String>();
+
+    //String[] Workouts = {"Run", "Push Ups", "Pull Ups", "Minute PLank", "Burpees", "Sit Ups"};
+    int num = 0;
+    int[] Complete;
     boolean check = true;
 
+    public Gym() {
+        Workouts.add("BenchPress");
+        Workouts.add("Squat Rack");
+        Workouts.add("Chest Press");
+        Workouts.add("Deadlifts");
+        Workouts.add("Leg Press");
+        Workouts.add("Dumbell Curls");
 
-    public Workout () {
-            Workouts.add("Run");
-            Workouts.add("Push Ups");
-            Workouts.add("Pull Ups");
-            Workouts.add("Sit Ups");
-            Workouts.add("Minute Plank");
-            Workouts.add("Burpees");
-        }
-
-
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,7 +50,7 @@ public class Workout extends AppCompatActivity {
                         check = false;
                     }
                     else {
-                        Intent i = new Intent(Workout.this, MainActivity.class);
+                        Intent i = new Intent(Gym.this, MainActivity.class);
                         startActivity(i);
                         finish();
 

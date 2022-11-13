@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().setTitle("GymBud");
 
         //wire up button
 
@@ -23,9 +24,18 @@ public class MainActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, Workout.class);
+                Intent i = new Intent(MainActivity.this, Location.class);
                 startActivity(i);
                 finish();
+            }
+        });
+
+        Button btn2 = (Button) findViewById(R.id.quit);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
+                System.exit(0);
             }
         });
 

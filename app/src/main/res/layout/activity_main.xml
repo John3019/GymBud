@@ -4,18 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9575CD"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/quit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="150dp"
+        android:contentDescription="@string/app_name"
+        android:text="@string/quit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Workout" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="312dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="104dp"
         android:contentDescription="@string/app_name"
         android:text="@string/welcome_to_gymbud"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#EEEEEE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,14 +42,16 @@
         android:layout_width="116dp"
         android:layout_height="65dp"
         android:layout_marginStart="148dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="408dp"
         android:layout_marginEnd="148dp"
+        android:backgroundTint="#6202ED"
         android:contentDescription="@string/app_name"
         android:text="@string/start_workout"
+        android:textColor="#EEEEEE"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="DuplicateSpeakableTextCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
